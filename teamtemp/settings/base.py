@@ -7,7 +7,7 @@ SECRET_KEY = os.environ.get(
     'TEAMTEMP_SECRET_KEY',
     'rp47vufz8lrr1cxki7lmc9w221ajgauk5ctv6xj')
 
-DEBUG = os.environ.get('DJANGO_DEBUG', False)
+DEBUG = os.environ.get('DJANGO_DEBUG', True)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_DIR = os.path.dirname(BASE_DIR)
