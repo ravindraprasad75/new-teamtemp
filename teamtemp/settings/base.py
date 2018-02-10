@@ -16,7 +16,7 @@ STATIC_BASE_DIR = os.environ.get('STATIC_BASE_DIR', BASE_DIR)
 MEDIA_BASE_DIR = os.environ.get('MEDIA_BASE_DIR', BASE_DIR)
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Ravindra', 'ravindra.prasad@yahoo.com'),
 )
 
 MANAGERS = ADMINS
