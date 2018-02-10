@@ -9,8 +9,8 @@ SECRET_KEY = os.environ.get(
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_DIR, 'teamtemp.sqlite'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.path.join(PROJECT_DIR, 'teamtemp.postgresql'),
     }
 }
 
